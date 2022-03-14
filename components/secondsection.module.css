@@ -1,0 +1,98 @@
+.headline{
+    width: 39%;
+    padding: 1rem 1rem;
+    display: inline-block;
+    text-align: left;
+    margin: 3rem auto;
+    border-radius: 3%;
+    background-color:rgba(250, 235, 215, 0.329);
+    filter: blur(5px);
+}
+
+.headline:hover{
+    transform: skewX(-20deg);
+    background-color: antiquewhite;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.342);
+    transform: scaleX(1);
+    width:45%;
+    transition: all .1s ease;
+    filter: none;
+}
+
+.heading_3{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: #203239;
+}
+
+.heading_3:hover{
+    transform: scaleX(1);
+    font-size: 1.5rem;
+    transition: all .1s ease;
+}
+
+.image_1{
+    width:25%;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.para_1{
+    color: #361500;
+}
+.para_1:hover{
+    transform: scaleX(1);
+    font-size: 1.4rem;
+    transition: all .1s ease;
+}
+
+@media screen and (max-width :650px){
+    .headline{
+        width: 80%;
+    }
+    .headline:hover{
+        transform: scaleX(1);
+        width: 90%;
+    }
+    .heading_3:hover{
+        font-size: 1.4rem;
+        transition: all .1s ease;
+    }
+    .para_1:hover{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width :650px){
+    .headline{
+        width: 75%;
+    }
+    .headline:hover{
+        transform: scaleX(1);
+        width: 80%;
+    }
+    .heading_3:hover{
+        font-size: 1.8rem;
+        transition: all .1s ease;
+    }
+    .para_1:hover{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width :900px){
+    .headline{
+        width: 40%;
+        z-index: 1;
+    }
+    .headline:hover{
+        transform: scaleX(1);
+        width: 45%;
+    }
+    .heading_3:hover{
+        font-size: 1.7rem;
+        transition: all .1s ease;
+    }
+    .para_1:hover{
+        font-size: 1.5rem;
+    }
+}

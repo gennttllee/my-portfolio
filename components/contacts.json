@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "image": "/static/my-2nd.jpg",
+        "heady3":"i am a web developer and a tech enthusiast in general",
+        "para1":"React and Next.js is my field of expertise and I have some experience with other programming languages as well most especially python"
+    },
+    {
+        "id": 1,
+        "image": "/static/my-hair.jpg",
+        "heady3":"i mentioned on the first tile i have experirnce with python ",
+        "para1":"I have built several projects with python like a password generator app using Tkinter and some other python modules baked into the language"
+    },
+    {
+        "id": 2,
+        "image": "/static/my-3rd.jpg",
+        "heady3":"I have actually been coding for a very long time now ",
+        "para1":"Saying i was born to code might sound offensive to some people but its the honest truth , have been in love with tech for decades now"
+    },
+    {
+        "id": 3,
+        "image": "/static/my-4th.jpg",
+        "heady3":"there is a part of me i am yet to explore in tech",
+        "para1":"Apart from being a tech genius ,i am ialso involved in crypto currency and other tech related stuffs . i love fashion and indoor games "
+    }
+]

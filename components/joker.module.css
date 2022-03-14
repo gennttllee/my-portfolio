@@ -1,0 +1,20 @@
+.second_page {
+    background-color: rgb(250, 235, 215);
+    width: 50%;
+    margin: 3% auto 3%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.678);
+}
+
+.second_page:hover {
+    background-color: rgba(250, 235, 215, 0.794);
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.header2 {
+    margin: 2rem 2rem 0;
+    color: #361500;
+}

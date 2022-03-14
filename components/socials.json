@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "image": "/static/my-2nd.jpg",
+        "heady3":"FACEBOOK",
+        "para1":"One click on this card will atke you directly to my facebok profile",
+        "link": "https://web.facebook.com/marckwilliamz"
+    },
+    {
+        "id": 1,
+        "image": "/static/my-hair.jpg",
+        "heady3":"INSTAGRAM ",
+        "para1":"One click on this card will atke you directly to my Instagram handle",
+        "link": "https://www.instagram.com/mark_williams_mw/"
+    },
+    {
+        "id": 2,
+        "image": "/static/my-3rd.jpg",
+        "heady3":"TWITTER ",
+        "para1":"One click on this card will atke you directly to my twitter handle",
+        "link": "https://twitter.com/mark_williams_m"
+    },
+    {
+        "id": 3,
+        "image": "/static/my-4th.jpg",
+        "heady3":"LINKEDIN",
+        "para1":"One click on this card will atke you directly to my Linkedn profile",
+        "link": "https://www.linkedin.com/in/malachi-udonkenta-98a77398/"
+    },
+    {
+        "id": 4,
+        "image": "/static/my-6th.jpg",
+        "heady3":"YOUTUBE",
+        "para1":"One click on this card will atke you directly to my youtube channel ",
+        "link": "https://www.youtube.com/channel/UCJ1KL2685z-KnVWlkCPAuTA"
+    }
+]

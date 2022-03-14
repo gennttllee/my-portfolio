@@ -1,0 +1,53 @@
+.cover{
+    background-color: #eeeddeb9;
+    position: relative;
+    width: 50%;
+    height: 25rem;
+    margin: 3rem auto;
+    text-align: centre;
+    transform: skewX(-10deg);
+}
+
+.cover:hover{
+    background-color:#EEEDDE ;
+    box-shadow: 1.5rem 1.5rem 2rem rgba(0, 0, 0, 0.438);
+}
+
+.heading_1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 5rem 0 1rem;
+    margin-top: 1rem;
+    color:#603601;
+    transform: skewX(10deg);
+}
+
+.pan_1{
+    color: red;
+}
+
+.para_1{
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem;
+    padding: 1.5rem 4.5rem ;
+    transform: skewX(10deg);
+    width:95%;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:1000px){
+    .cover{
+        height: fit-content;
+        width: 80%;
+        transform: none;
+    }
+    .heading_1{
+        padding: 5rem 2rem 2rem;
+        transform: none;
+    }
+    .para_1{
+        padding-bottom: 4.5rem;
+        transform: none;
+    }
+}

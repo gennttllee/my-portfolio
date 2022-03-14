@@ -1,0 +1,58 @@
+.container{
+    width: 20%;
+    background-color: antiquewhite;
+    margin: 2rem 3rem;
+    padding: 2rem;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.753);
+}
+
+.container:hover{
+    animation-name :slide-top;
+    animation-duration: .3s;
+    position: relative;
+}
+
+.hack{
+    font-size: 200%;
+}
+
+@keyframes slide-top {
+    from{ top:-1rem}
+    to{bottom:1rem;}
+}
+
+.para{
+    margin-bottom: 1.5rem;
+}
+
+.links{
+    background-color: #203239;
+    color: white;
+    padding:7px 10px;
+}
+
+@media screen and (max-width:700px){
+    .container{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:700px){
+    .container{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:700px){
+    .container{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .container{
+        width: 20%;
+    }
+}
