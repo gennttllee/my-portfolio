@@ -13,7 +13,8 @@
     text-align: centre;
     position: absolute;
     top: 15%;
-    margin: 0 20%;
+    margin: 0 15%;
+    width: 70%;
     color: #361500;
     background-color: antiquewhite;
 }
@@ -43,7 +44,7 @@
     padding: 7px;
     margin: 10% auto 0;
     width: 20rem;
-    height: 9%;
+    height: 3rem;
     border: none;
     background-color: #361500;
     color: white;
@@ -92,7 +93,7 @@
     padding: 7px;
     margin: 2rem auto;
     width: 20rem;
-    height: 8%;
+    height: 3rem;
     border: none;
     background-color: #361500;
     color: white;
@@ -115,7 +116,7 @@
     padding: 5px;
     width: 20rem;
     margin: 2rem auto;
-    height: 7%;
+    height: 3rem;
     color: #361500;
     border-radius: 3rem;
     box-shadow: 0 5px 5px;
@@ -131,8 +132,9 @@
     .diver {
         position: absolute;
         width: 100%;
-        margin-left: 0;
+        margin: 0;
         top: 13%;
+        padding: 5%;
     }
 
     .main_div {
@@ -143,6 +145,7 @@
 
     .davina {
         position: absolute;
+        top: 50%;
         left: 34%;
         width: fit-content;
     }

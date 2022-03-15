@@ -58,11 +58,11 @@
         display: none;
     }
 
-    .first_h{
+    .first_h {
         margin-left: 2rem;
     }
 
-    .responsive{
+    .responsive {
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -74,25 +74,25 @@
         margin: 0;
     }
 
-    .responsive .list_container{
+    .responsive .list_container {
         display: block;
         position: absolute;
         top: 8rem;
         left: 3rem;
     }
 
-    .responsive .list_items{
+    .responsive .list_items {
         margin: 1rem auto;
     }
 
-    .responsive .navbar{
+    .responsive .navbar {
         position: absolute;
-        left: 40%;
-        bottom: 5rem;
-        width: 10%;
+        left: 35%;
+        top: 60%;
+        width: 20%;
     }
 
-    .responsive .first_h{
+    .responsive .first_h {
         text-align: center;
         margin: 5rem auto;
     }

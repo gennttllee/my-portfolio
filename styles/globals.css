@@ -4,9 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-image: url(../public/static/my-face.jpg);
-    background-size: cover;
-    text-align: center;
+  background-image: url(../public/static/my-face.jpg);
+  background-size: cover;
+  text-align: center;
 }
 
 a {
@@ -17,11 +17,4 @@ a {
 * {
   box-sizing: border-box;
   margin: 0;
-
-}
-
-@media screen and (max-width:600px) {
-  body{
-    background-size:100vh;
-  }
 }
