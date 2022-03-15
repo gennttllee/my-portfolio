@@ -8,6 +8,7 @@
     padding: 5px;
     z-index: 1;
     top: 0;
+    margin: 0;
 }
 
 .spanner {
@@ -70,6 +71,7 @@
         text-align: center;
         z-index: 1;
         width: 100%;
+        margin: 0;
     }
 
     .responsive .list_container{
@@ -85,9 +87,9 @@
 
     .responsive .navbar{
         position: absolute;
-        left: 25%;
-        top: 20rem;
-        width: 40%;
+        left: 40%;
+        bottom: 5rem;
+        width: 10%;
     }
 
     .responsive .first_h{

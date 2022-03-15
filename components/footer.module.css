@@ -1,39 +1,44 @@
-.main_comp{
-    background-color:#203239;
+.main_comp {
+    background-color: #203239;
     height: 8rem;
     color: antiquewhite;
     margin: 6rem 0 0;
 }
 
-.spanner{
+.spanner {
     color: red;
     padding-left: 10px;
     font-size: 3rem;
 }
-.spanner:hover{
+
+.spanner:hover {
     color: white;
 }
 
-.link1{
+.link1 {
     font-size: 1.2rem;
 }
-.link1:hover{
+
+.link1:hover {
     text-decoration: underline;
     color: white;
 }
 
-@media screen and (max-width:600px){
-    .main_comp{
+@media screen and (max-width: 600px) {
+    .main_comp {
         text-align: center;
+        margin-bottom: 0;
     }
-    .h1{
+
+    .h1 {
         width: 100%;
         font-size: 1.3rem;
         margin-bottom: 9px;
     }
 
-    .link1{
+    .link1 {
         padding-bottom: 1.5rem;
         margin-bottom: 3rem;
     }
+
 }

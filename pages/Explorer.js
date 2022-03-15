@@ -4,6 +4,7 @@ import Joker from '../components/Joker'
 import Head from 'next/head'
 import styles from './explorer.module.css'
 import Footer from '../components/Footer'
+import Empty from '../components/Empty'
 
 
 export default function Explorer() {
@@ -13,6 +14,7 @@ export default function Explorer() {
                 <title>Explorer</title>
             </Head>
             <Header />
+            <Empty />
             <div className={styles.myname}>
             <Joker />
             </div>
