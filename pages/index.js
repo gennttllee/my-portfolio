@@ -18,11 +18,11 @@ export default function Home() {
 
   const [people, setPeople] = useState('');
   const handleClick = () => {
-    if (gender.toUpperCase() === 'MALE') {
+    if (gender.toUpperCase() == 'MALE') {
       setPeople(`Hi Mr ${name.toUpperCase()}  welcome to my portfolio website my name is Mark Williams, i am a programmer and a web developer `)
       document.getElementById('divers').style.display = 'none';
       document.getElementById('dave').style.display = 'block';
-    } else if (gender.toUpperCase() === 'FEMALE') {
+    } else if (gender.toUpperCase() == 'FEMALE') {
       setPeople(`Hi Mrs ${name} welcome to my portfolio website my name is Mark Williams, i am a programmer and a web developer`)
       document.getElementById('divers').style.display = 'none';
       document.getElementById('dave').style.display = 'block';
