@@ -1,9 +1,9 @@
 .davina {
     display: none;
     width: fit-content;
-    margin: 10% auto;
+    margin: 0 auto;
     position: absolute;
-    bottom: 10%;
+    top: 50%;
     width: 20%;
     left: 40%;
     margin: 8 35%;
@@ -22,7 +22,6 @@
 .main_page {
     background-color: antiquewhite;
     height: 100vh;
-    padding: 0;
     position: relative;
     text-align: center;
     display: block;
@@ -32,16 +31,13 @@
     height: fit-content;
     text-align: center;
     position: absolute;
-    width: 50%;
-    top: 20%;
-    margin:  0% 25%;
-
+    width: 100%;
+    top: 10%;
     display: block;
 }
 
 .input1 {
     display: block;
-    padding: 7px;
     margin: 10% auto 0;
     width: 20rem;
     height: 3rem;
@@ -60,6 +56,18 @@
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.radio1{
+    transform: scale(2);
+    accent-color:#361500;
+    margin: 0 12px 2rem 2rem;
+}
+
+.radio2{
+    transform: scale(2);
+    accent-color:#361500;
+    margin: 2rem 12px 2rem 2rem;
 }
 
 @keyframes slideRight {
@@ -88,34 +96,10 @@
     }
 }
 
-.input2 {
-    display: block;
-    padding: 7px;
-    margin: 2rem auto;
-    width: 20rem;
-    height: 3rem;
-    border: none;
-    background-color: #361500;
-    color: white;
-    text-align: center;
-    font-size: larger;
-    outline: none;
-}
-
-.input2:hover {
-    position: relative;
-    outline: none;
-    animation-name: slideRight;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
 .btn {
     display: block;
-    padding: 5px;
-    width: 20rem;
-    margin: 2rem auto;
+    width: 15rem;
+    margin:  auto;
     height: 3rem;
     color: #361500;
     border-radius: 3rem;
@@ -145,7 +129,7 @@
 
     .davina {
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 33%;
         width: fit-content;
     }
@@ -170,19 +154,3 @@
     }
 }
 
-@media only screen and (min-width:520px) and (max-width:800px){
-    .diver {
-        position: absolute;
-        width: 75%;
-        margin:0 15%;
-    }
-
-    .main_div{
-        top: 23%;
-    }
-
-    .davina{
-        width: fit-content;
-    }
-
-}
