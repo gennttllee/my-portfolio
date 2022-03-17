@@ -29,4 +29,20 @@
         text-decoration: none;
         letter-spacing: 4px;
     }
+
+    .h1{
+        width: 60%;
+        animation-name :slide-top;
+        animation-duration: 4s;
+        animation-delay: .1s;
+        position: relative;
+    }
+
+    @keyframes slide-top {
+        0%   {left:-200px; top:0px;}
+        25%  { left:-10px; top:0px;}
+        50%  { left:0px; top:0px;}
+        75%  { left:10px; top:0px;}
+        100% { left:20px; top:0px;}
+    }
 }
