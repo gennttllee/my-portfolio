@@ -16,13 +16,18 @@ export default function Home() {
     meme = event.target.value
   }
 
+  let memes;
+  const clickers = (event) => {
+    memes = event.target.value
+  }
+
   const [people, setPeople] = useState('');
   const handleClick = () => {
     if (meme == 'male') {
       setPeople(`Hi Mr ${name.toUpperCase()}  welcome to my portfolio website my name is Mark Williams, i am a programmer and a web developer `)
       document.getElementById('divers').style.display = 'none';
       document.getElementById('dave').style.display = 'block';
-    } else if (meme == 'female') {
+    } else if (memes == 'female') {
       setPeople(`Hi Mrs ${name.toUpperCase()} welcome to my portfolio website my name is Mark Williams, i am a programmer and a web developer`)
       document.getElementById('divers').style.display = 'none';
       document.getElementById('dave').style.display = 'block';
@@ -39,7 +44,7 @@ export default function Home() {
         <input className={styles.input1} type='text' onChange={clickMe} placeholder='First name' value={name} ></input>
         <input className={styles.radio1} onClick={clicker} type='radio' name='gender' value='male'></input>
         <label className={styles.male_label}>male</label>
-        <input className={styles.radio2} onClick={clicker} type='radio' name='gender' value='female'></input>
+        <input className={styles.radio2} onClick={clickers} type='radio' name='gender' value='female'></input>
         <label className={styles.female_label}>female</label>
         <button className={styles.btn} onClick={handleClick}>Submit</button>
       </div>
