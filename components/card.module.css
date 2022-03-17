@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 20%;
     background-color: antiquewhite;
     margin: 2rem 3rem;
@@ -8,63 +8,87 @@
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.753);
 }
 
-.container:hover{
-    animation-name :slide-top;
-    animation-duration: .3s;
+.container:hover {
+    animation-name: slide-top;
+    animation-duration: 0.1s;
     position: relative;
 }
 
-.hack{
+.hack {
     font-size: 200%;
 }
 
 @keyframes slide-top {
-    from{ top:-1rem}
-    to{bottom:1rem;}
+    from {
+        top: -2rem;
+    }
+
+    to {
+        bottom: 1rem;
+    }
 }
 
-.para{
+.para {
     margin-bottom: 1.5rem;
 }
 
-.links{
+.links {
     background-color: #203239;
     color: white;
-    padding:7px 10px;
+    padding: 7px 10px;
 }
 
-@media screen and (max-width:700px){
-    .container{
+@media screen and (max-width: 600px) {
+    .container {
         width: 60%;
-        animation-name :slide-top;
+        animation-name: slide-top;
         animation-duration: 4s;
-        animation-delay: .1s;
         position: relative;
     }
 
     @keyframes slide-top {
-        0%   {left:-200px; top:0px;}
-        25%  { left:-10px; top:0px;}
-        50%  { left:0px; top:0px;}
-        75%  { left:10px; top:0px;}
-        100% { left:20px; top:0px;}
+        0% {
+            left: -200px;
+        }
+
+        25% {
+            left: -10px;
+        }
+
+        50% {
+            left: 0px;
+        }
+
+        75% {
+            left: 10px;
+        }
+
+        100% {
+            left: 20px;
+        }
     }
 }
 
-@media screen and (min-width:700px){
-    .container{
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    .container {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+    .container {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+    .container {
         width: 30%;
     }
 }
 
-@media screen and (min-width:700px){
-    .container{
-        width: 30%;
-    }
-}
-
-@media screen and (min-width:1200px){
-    .container{
-        width: 20%;
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .container {
+        width: 24%;
     }
 }

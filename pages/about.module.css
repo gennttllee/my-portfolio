@@ -32,13 +32,12 @@
 
     .h1 {
         width: 60%;
-        animation-name: slide-top;
+        animation-name: slide-down;
         animation-duration: 3s;
-        animation-delay: 0.1s;
         position: relative;
     }
 
-    @keyframes slide-top {
+    @keyframes slide-down {
         0% {
             top: -200px;
         }
