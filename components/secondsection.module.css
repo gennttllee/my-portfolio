@@ -1,5 +1,6 @@
 .headline {
-    width: 39%;
+    width: 38%;
+    display: grid;
     padding: 1rem 1rem;
     display: inline-block;
     text-align: left;
@@ -49,7 +50,7 @@
 
 @media screen and (max-width: 650px) {
     .headline {
-        width: 85%;
+        width: 90%;
     }
 
     .headline:hover {
@@ -58,16 +59,16 @@
     }
 
     .heading_3:hover {
-        font-size: 1.4rem;
+        font-size: 1rem;
         transition: all 0.1s ease;
     }
 
     .para_1:hover {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 650px) and (max-width: 900px) {
     .headline {
         width: 75%;
     }
@@ -78,32 +79,32 @@
     }
 
     .heading_3:hover {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         transition: all 0.1s ease;
     }
 
     .para_1:hover {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
     .headline {
-        width: 40%;
-        z-index: 1;
+        width: 45%;
     }
 
     .headline:hover {
         transform: scaleX(1);
-        width: 45%;
+        width: 50%;
+        z-index: 1;
     }
 
     .heading_3:hover {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         transition: all 0.1s ease;
     }
 
     .para_1:hover {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 }
