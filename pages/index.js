@@ -24,11 +24,11 @@ export default function Home() {
   const [people, setPeople] = useState('');
   const handleClick = () => {
     if (meme == 'male') {
-      setPeople(`Hi Mr ${name.toUpperCase()}  welcome to my portfolio website my name is Mark Williams, i am a programmer and a web developer `)
+      setPeople(`Hi Mr ${name.toUpperCase()}  welcome to my fun project my name is Mark Williams, i am a programmer and a web developer `)
       document.getElementById('divers').style.display = 'none';
       document.getElementById('dave').style.display = 'block';
     } else if (memes == 'female') {
-      setPeople(`Hi Mrs ${name.toUpperCase()} welcome to my portfolio website my name is Mark Williams, i am a programmer and a web developer`)
+      setPeople(`Hi Mrs ${name.toUpperCase()} welcome to my fun project my name is Mark Williams, i am a programmer and a web developer`)
       document.getElementById('divers').style.display = 'none';
       document.getElementById('dave').style.display = 'block';
     }
